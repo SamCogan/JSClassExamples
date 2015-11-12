@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Get element by ID</title>
+		<script>
+		function changeName(){
+			var user=document.getElementById("name");
+			user.innerHTML="Sam";
+		}
+		</script>
+	</head>
+	<body>
+		<p>Welcome <span id="name">user</span></p>
+		<button onclick="changeName()">Change name</button>
+	</body>
+</html>
